@@ -6,7 +6,7 @@ BRANDS=[]
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.None?(brand) 
+    if BRANDS.None?(brand)
       BRANDS<<brand
     end
   end
