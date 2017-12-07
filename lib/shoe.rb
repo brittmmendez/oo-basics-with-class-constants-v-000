@@ -6,7 +6,9 @@ BRANDS=[]
 
   def initialize(brand)
     @brand = brand
-    BRANDS<<brand
+    if BRANDS.None?(brand) 
+      BRANDS<<brand
+    end
   end
 
   def cobble
